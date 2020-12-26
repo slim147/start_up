@@ -1,0 +1,89 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  /* background-color: rgba(255,174,0); */
+}
+
+.head-section{
+  content: '';
+  background-image: url(https://images.unsplash.com/photo-1589451359791-f9c33af92239?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=618&q=80);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center ;
+ min-height: 100vh;
+}
+.nav-link-color{
+  color: rgb(250, 250, 56) !important;
+}
+.header-text{
+  padding-top: 15rem;
+  outline-color: #7E2C99;
+}
+.bg-transparent{
+  background:transparent;
+  transition: 2000ms ease;
+}
+nav.scrolled{
+  background: #7E2C99!important;
+  position: fixed;
+  display: inline;
+  min-width: 100%;
+  
+}
+#about-section{
+  background-color: purple;
+  /* min-height: 100vh; */
+}
+.row-1{
+  background-image:url(https://images.unsplash.com/photo-1493655161922-ef98929de9d8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  /* width: 50%; */
+  background-position-x: -180px;
+  position: sticky;
+  background-size:cover;
+  /* position: fixed; */
+}
+@media screen and (max-width: 567px){
+  .row-1{
+    background: purple;
+    background-position-x: -200px;
+    max-height: 10vh;
+  }
+  .gist{
+    max-height: 50vh;
+    padding-top: 0px;
+  }
+}
+.gist{
+  min-height: 100vh;
+  padding-top: 10rem;
+}
+/* .th3{
+  min-height: 100vh;
+  align-content: center;
+
+} */
+.button{
+  background-color: #7E2C99!important;
+  /* border-color: yellowgreen!important; */
+  box-shadow: 5px 5px 10px rgb(250, 250, 56);
+  border-color: none;
+  outline-style: none;
+}
+/* .button:focus{
+  outline: none!important;
+  box-shadow: no
+} */
+.circle{
+  
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  /* background-image: url(https://images.ctfassets.net/aq13lwl6616q/31psmVITcqGN8nMDmuqDEd/5d84a1e00116fc4308975b8b1bda101b/image.png?w=551&h=698&q=50&fm=webp); */
+  background-size: 20rem;
+  /* background-position-y: relative; */
+}
