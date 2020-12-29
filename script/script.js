@@ -16,10 +16,11 @@ const nav = document.querySelector('nav');
 const position = nav.getBoundingClientRect();
 const observer = new IntersectionObserver((entries,observer = {
     root: null,
-    rootMargin: position.height
+    rootMargin: `-${position.height}px`
 }) =>{
     console.log(observer);
    entries.forEach(entry =>{
+     nav.classList.add('bg-transparent');
         if(entry.isIntersecting){
             nav.classList.add('scrolled');
     }else{nav.classList.remove('scrolled')}
