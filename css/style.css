@@ -29,7 +29,7 @@ body{
 nav.scrolled{
   background: #7E2C99!important;
   position: fixed;
-  display: inline;
+/*   display: inline; */
   min-width: 100%;
   
 }
